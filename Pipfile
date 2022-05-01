@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+streamlit = "*"
+openpyxl = "*"
+plotly = "*"
+typing-extensions = "*"
+pandas = "==0.25.3"
+numpy = "==1.17.4"
+xlrd = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
